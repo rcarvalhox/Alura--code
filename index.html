@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificador e Decodificador</title>
+    <link rel="shortcut icon" href="Imagens/Vector.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="main container">
+        <header class="cabecalho">
+            <img src="Imagens/Vector.png" alt="">
+            <h1>Mensagens Codificadas</h1>
+        </header>
+
+        <div class="container-input">
+            <div class="input">
+                <textarea id="input-texto" placeholder="Digite o seu texto aqui..." ></textarea>
+                <p> <img src="Imagens/Vector2.png" alt=""> Apenas letras minúsculas e sem acento.</p>
+            </div>
+
+            <div id="output">
+                <img src="Imagens/High quality products 1 1.png" alt="">
+                <h2>Sua mensagem aparecerá aqui</h2>
+                <span>Digite um texto que deseja criptografar ou descriptografar.</span>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <div class="container-btn">
+                <button onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+                <button onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>
+            </div>
+        </div>
+
+        <footer class="rodape">
+            <div class="icons">
+                <a href="https://github.com/rcarvalhox"><ion-icon name="logo-github"></ion-icon></a>
+                <a href="https://www.instagram.com/rcarvalhox/?next=%2F"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="https://www.linkedin.com/in/ramon-carvalho-dev/"><ion-icon name="logo-linkedin"></ion-icon></a>
+            </div>
+
+            <h3>Desenvolvido por Ramon Carvalho</h3>
+
+        </footer>
+    </main>
+
+    <script src="interação/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</body>
+</html>
